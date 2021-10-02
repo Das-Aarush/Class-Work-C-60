@@ -1,0 +1,55 @@
+body {
+text-align: center;
+}
+
+.line {
+height: 100px;
+width:300px;
+}
+.menu {
+list-style: none;
+position:fixed;
+top: 10px;
+right: 30px;
+cursor: pointer;
+z-index: 10px;
+}
+.links{
+float: left;
+color: black;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+font-size: 20px;
+}
+.links:hover {
+background-color: aqua;
+} 
+.paralax-inner {
+ display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#carousel img {
+    width:250px;
+    height:250px;
+    margin-top: 15px;
+}
+
+#carousel {
+background-color: red;
+}
+
+.carousel-inner p {
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+color: white;
+}
+
+.container {
+text-align: center;
+}
